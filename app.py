@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-from engineering.engine import run_engine, generate_insights, estimate_opportunity
+from engine import run_engine, generate_insights, estimate_opportunity
 
 st.set_page_config(page_title = "Customer Strategy Engine", layout = "wide")
 df = pd.read_csv("customer_engine_dataset.csv")
